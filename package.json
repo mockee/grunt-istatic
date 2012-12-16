@@ -1,0 +1,41 @@
+{
+  "name": "grunt-istatic"
+, "description": "Grunt tasks for istatic."
+, "version": "0.1.0"
+, "homepage": "https://github.com/mockee/grunt-istatic"
+, "author": {
+    "name": "mockee"
+  , "email": "mockee@gmail.com"
+  , "url": "https://github.com/mockee"
+  }
+, "repository": {
+    "type": "git"
+  , "url": "git://github.com/mockee/grunt-istatic.git"
+  }
+, "bugs": {
+    "url": "https://github.com/mockee/grunt-istatic/issues"
+  }
+, "licenses": [
+    {
+      "type": "MIT"
+    , "url": "https://github.com/mockee/grunt-istatic/blob/master/LICENSE-MIT"
+    }
+  ]
+, "main": "grunt"
+, "engines": {
+    "node": "*"
+  }
+, "scripts": {
+    "tasks": "grunt"
+  }
+, "devDependencies": {
+    "grunt": "~0.3.14"
+  }
+, "dependencies": {
+    "node-istatic": ">=0.2.5"
+  }
+, "keywords": [
+    "grunt"
+  , "istatic"
+  ]
+}
