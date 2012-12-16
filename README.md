@@ -1,3 +1,5 @@
+[![Build Status](https://secure.travis-ci.org/mockee/grunt-istatic.png?branch=master)](http://travis-ci.org/mockee/grunt-istatic)
+
 # grunt-istatic
 
 Grunt tasks for [iStatic](https://github.com/mockee/istatic).
