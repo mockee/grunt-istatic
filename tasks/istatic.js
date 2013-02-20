@@ -4,10 +4,6 @@ module.exports = function(grunt) {
   var DESC = 'Unified management of static files.'
 
   grunt.registerMultiTask('istatic', DESC, function() {
-    grunt.helper('istatic', this.data, this.async())
-  })
-
-  grunt.registerHelper('istatic', function(config, cb) {
-    istatic.pull(config)
+    istatic.pull(this.data, this.async())
   })
 }
